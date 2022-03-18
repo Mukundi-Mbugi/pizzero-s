@@ -81,5 +81,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 50px;
+  margin: 20px;
+}
+.cont2{
+    position: relative;
+    margin-top: 75px;
+    padding: 50px;
+    background-color: #1B1A17;
+    justify-content: center;
+    align-items: center;
 }
