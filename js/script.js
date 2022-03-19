@@ -30,7 +30,7 @@ $(document).ready(function(){
         var pepperoniPrice = 350
         var hawaiiPrice = 300
 
-        var totalPrice = 
+        var totalLargePizza = {}
 
 
 

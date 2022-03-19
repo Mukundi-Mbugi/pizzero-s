@@ -12,7 +12,7 @@
   justify-content: center; */
 } 
 .hero {
-  background-image: url(/images/home1.jpg);
+  background-image: url(./images/home1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -172,7 +172,7 @@
   font-size: 15px;
   }
 .ordercont1{
-  background-image: url(/images/BBQ.jpg);
+  background-image: url(./images/BBQ.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
