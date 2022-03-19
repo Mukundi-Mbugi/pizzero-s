@@ -242,11 +242,14 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: #4caf50;
   color: white;
   margin-top: 20px;
+  font-weight: 300;
 }
-.table{
-  background-color: #db8742;
+#table{
+  background-color: #383532;
   color: white;
+  font-weight: 300;
+  margin-top: 10px;
 }
