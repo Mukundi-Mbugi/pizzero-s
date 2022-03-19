@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
 * {
   font-family: "Roboto", sans-serif;
 }
 
-/* .body {
+.body {
   font-family: "Roboto", sans-serif;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-} */
+  justify-content: center; */
+} 
 .hero {
   background-image: url(/images/home1.jpg);
   background-repeat: no-repeat;
@@ -111,6 +111,7 @@
 
 .row1 {
   justify-content: center;
+  font-weight: 400;
 }
 
 .cont3 {
@@ -135,28 +136,24 @@
   top: 0;
 }
 .ordercont1{
-  /* background-color: #2D2424; */
-  height: 100vh;
+  height: 0vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .orderow1{
-  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
-  
 }
 #form-control{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #383532;
-  padding: 10px;
+  padding: 20px;
+  
 }
 #pizza{
   background-color: #4caf50;
@@ -165,16 +162,13 @@
   border: none;
   font-weight: 300;
   font-size: 15px;
-  /* height: 5vh;
-  margin-bottom: 10px;
-    padding-bottom: 20px;
-    position: relative; */
-}
+  }
 .ordercont1{
   background-image: url(/images/BBQ.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
 }
 #btn3 {
   background-color: #4caf50;
@@ -186,7 +180,6 @@
   text-decoration: none;
   font-size: 13px;
   font-weight: 300;
-  /* top: 0; */
 }
 .form-control4{
   color: white;
@@ -208,4 +201,52 @@
   background-color: black;
   font-weight: 300;
   padding: 5px;
+}
+#cripsy{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#stuffed{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#gluten-free{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#bbq{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#pepperoni{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#hawaii{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#t-head{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  margin-top: 20px;
+}
+.table{
+  background-color: #db8742;
+  color: white;
 }

@@ -7,7 +7,7 @@ $(document).ready(function(){
 
         var cripsyCrust = $("#cripsy").val();
         var stuffedCrust = $("#stuffed").val();
-        var gluttenCrust = $("#glutten-free").val();
+        var glutenCrust = $("#gluten-free").val();
 
         var berbecueTopping = $("#bbq").val();
         var pepperoniTopping = $("#pepperoni").val();
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         // Declare prices
 
-        
+
 
     })
     
