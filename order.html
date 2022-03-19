@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pizzeros</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="container-fluid ordercont">
-        <a href="index.html"><img src="/images/logo.png" alt="logo"></a> 
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="order.html">Place Order</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container-fluid ordercont1">
-      <div class="row orderow1">
-        <div id="form-control">
-          <div class="col-3">
-            
-              <select name="pizza" id="pizza">
-                <option value="" disabled selected hidden>
-                  Choose Pizza Crust
-                </option>
-                <option value="largepizza" id="largepizza">Cripsy</option>
-                <option value="mediumpizza" id="mediumpizza">Stuffed</option>
-                <option value="smallpizza" id="smallpizza">Gluten-free</option>
-              </select>
-            
-          </div>
-          <div class="col-3">
-            
-              <select name="pizza" id="pizza">
-                <option value="" disabled selected hidden>
-                  Choose Pizza Crust
-                </option>
-                <option value="largepizza" id="largepizza">Cripsy</option>
-                <option value="mediumpizza" id="mediumpizza">Stuffed</option>
-                <option value="smallpizza" id="smallpizza">Gluten-free</option>
-              </select>
-            
-          </div>
-          <div class="col-3">
-            
-              <select name="pizza" id="pizza">
-                <option value="" disabled selected hidden>Toppings</option>
-                <option value="largepizza" id="largepizza">Berbecue</option>
-                <option value="mediumpizza" id="mediumpizza">Pepperoni</option>
-                <option value="smallpizza" id="smallpizza">Hawaii</option>
-              </select>
-            
-          </div>
-          <div class="form-control4">
-            <label>Number of pizza</label>
-            <input type="text" placeholder="1" id="ordernumber" required />
-            <button type="button" id="btn3">Submit</button></a>
-          </div>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzeros</title>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container-fluid ordercont">
+      <a href="index.html"><img src="/images/logo.png" alt="logo"></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Place Order</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid ordercont1">
+    <div class="row orderow1">
+      <div id="form-control">
+        <div class="col-3">
+          <select name="pizza" id="pizza">
+            <option value="" disabled selected hidden>
+              Choose Pizza Size
+            </option>
+            <option value="largepizza" id="largepizza">Large</option>
+            <option value="mediumpizza" id="mediumpizza">Medium</option>
+            <option value="smallpizza" id="smallpizza">Small</option>
+          </select>
         </div>
-           
-        
-        
+        <div class="col-3">
+          <select name="pizza" id="pizza">
+            <option value="" disabled selected hidden>
+              Choose Pizza Crust
+            </option>
+            <option value="largepizza" id="largepizza">Cripsy</option>
+            <option value="mediumpizza" id="mediumpizza">Stuffed</option>
+            <option value="smallpizza" id="smallpizza">Gluten-free</option>
+          </select>
+        </div>
+        <div class="col-3">
+          <select name="pizza" id="pizza">
+            <option value="" disabled selected hidden>Toppings</option>
+            <option value="largepizza" id="largepizza">Berbecue</option>
+            <option value="mediumpizza" id="mediumpizza">Pepperoni</option>
+            <option value="smallpizza" id="smallpizza">Hawaii</option>
+          </select>
+        </div>
+        <div class="form-control4">
+          <label>Number of pizza</label>
+          <input type="text" placeholder="1" id="ordernumber" required />
+          <button type="button" id="btn3">Submit</button></a>
+        </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+<script src="./js/jquery-3.6.0.js"></script>
+<script src="./js/script.js"></script>
 </html>

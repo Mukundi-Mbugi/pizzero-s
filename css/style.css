@@ -191,3 +191,21 @@
 .form-control4{
   color: white;
 }
+#largepizza{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#mediumpizza{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
+#smallpizza{
+  color: rgb(252, 165, 25);
+  background-color: black;
+  font-weight: 300;
+  padding: 5px;
+}
