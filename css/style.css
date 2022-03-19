@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
+
 * {
   font-family: "Roboto", sans-serif;
 }
+
 /* .body {
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -25,6 +27,7 @@
   margin-bottom: 20px;
   z-index: -2;
 }
+
 .hero::before {
   content: "";
   position: absolute;
@@ -35,16 +38,19 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
+
 .hero h1 {
   font-size: 60px;
   letter-spacing: 1px;
   font-weight: 300;
 }
+
 .hero p {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
+
 .nav {
   position: fixed;
   background-color: rgb(0, 0, 0);
@@ -52,18 +58,21 @@
   right: 0;
   top: 0;
 }
+
 .container-fluid {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
 }
+
 .container-fluid ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style-type: none;
 }
+
 .container-fluid a {
   color: rgb(240, 155, 18);
   text-decoration: none;
@@ -71,9 +80,10 @@
   font-size: 20px;
   font-weight: 300;
 }
+
 #btn {
-    position: absolute;
-    top: 0;
+  position: absolute;
+  top: 0;
   background-color: #4caf50;
   border: none;
   border-radius: 5px;
@@ -87,8 +97,9 @@
   justify-content: center;
   margin-left: 15cm;
   margin-top: 430px;
-  
+
 }
+
 .cont2 {
   position: relative;
   margin-top: 75px;
@@ -97,9 +108,11 @@
   justify-content: center;
   align-items: center;
 }
-.row1{
-    justify-content: center;
+
+.row1 {
+  justify-content: center;
 }
+
 .cont3 {
   display: flex;
   flex-direction: column;
@@ -107,16 +120,62 @@
   justify-content: center;
   background-color: #1b1a17;
 }
-#btn2{
-    background-color: #4caf50;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 300;
-    top: 0;
+
+#btn2 {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  top: 0;
+}
+.ordercont1{
+  /* background-color: #2D2424; */
+  height: 100vh;
+}
+
+.orderow1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 50px;
+}
+.form-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50;
+  z-index: -2;
+}
+#pizza{
+  background-color: #000000;
+  color: rgb(255, 166, 0);
+  /* height: 5vh;
+  margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative; */
+}
+.ordercont1{
+  background-image: url(/images/BBQ.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ordercont1::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  z-index: -1;
+
 }
