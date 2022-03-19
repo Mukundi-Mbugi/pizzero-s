@@ -18,6 +18,20 @@ $(document).ready(function(){
 
         // Declare prices
 
+        var largePizzaPrize = 300;
+        var mediumPizzaPrize = 200;
+        var smallPizzaPrize = 100;
+
+        var cripsyPrice = 300;
+        var stuffedPrice = 200;
+        var glutenPrice = 150;
+
+        var berbecuePrice = 400;
+        var pepperoniPrice = 350
+        var hawaiiPrice = 300
+
+        var totalPrice = 
+
 
 
     })
