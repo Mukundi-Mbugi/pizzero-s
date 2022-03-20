@@ -9,6 +9,7 @@ $(document).ready(function(){
   
         var totalPrice = (parseInt(pizzaSize) + parseInt(pizzaCrust) + parseInt(pizzaTopping)) * parseInt(orderNumber);
         // console.log(totalPrice);
+         
 
         var deliveryFee = 300
 
@@ -19,6 +20,9 @@ $(document).ready(function(){
         document.getElementById("return1").innerHTML= "You have chosen "+ $("#size option:selected").text() + " pizza, " + $("#crust option:selected").text()+ " crust and " + $("#topping option:selected").text() + " topping. " + " The total price is Ksh. " + totalPrice;
 
         document.getElementById("return2").innerHTML= "Your new total price is Ksh " + grandTotal +". Our delivery guy will be at your doorstep soon.";
+
+        var location = document.getElementById("location1").value;
+        console.log(location);
 
         
 
@@ -32,6 +36,9 @@ $(document).ready(function(){
     $("#btn4").click(function(){
         $("#return2").show();
     });
+    if(pizzaSize===""){
+        alert("Please make an order");
+    };
     
     
 })

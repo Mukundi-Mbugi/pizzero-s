@@ -163,7 +163,10 @@
   font-size: 15px;
 }
 .ordercont1 {
-  background-image: url(../images/BBQ.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -300,4 +303,12 @@
 }
 #return2{
   display: none;
+}
+.deliver label{
+  color: white;
+}
+.fluid1{
+  background-image: url(../images/BBQ.jpg);
+  background-size: cover;
+  height: 100vh;
 }
