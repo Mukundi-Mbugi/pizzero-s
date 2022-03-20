@@ -36,9 +36,9 @@ $(document).ready(function(){
     $("#btn4").click(function(){
         $("#return2").show();
     });
-    if(pizzaSize===""){
-        alert("Please make an order");
-    };
+    // if (crust option:selected===""){
+    //     alert("Please make an order");
+    // };
     
     
 })
