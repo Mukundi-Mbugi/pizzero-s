@@ -312,3 +312,32 @@
   background-size: cover;
   height: 100vh;
 }
+#yes {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+#no{
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+.locnum{
+  display: none;
+}
+#return3{
+  display: none;
+  color: red;
+}

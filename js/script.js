@@ -21,20 +21,22 @@ $(document).ready(function(){
 
         document.getElementById("return2").innerHTML= "Your new total price is Ksh " + grandTotal +". Our delivery guy will be at your doorstep soon.";
 
-        var location = document.getElementById("location1").value;
-        console.log(location);
+        // document.getElementById("return3").innerHTML= "Thank you for shopping with us. Enjoy your pzza!";
 
-        
-
-
+        // var location = document.getElementById("location1").value;
+        // console.log(location);
 
     })
     $("#btn3").click(function(){
         $(".deliver").show();
         $("#return1").show();
+            
     });
-    $("#btn4").click(function(){
+    $("#yes").click(function(){
         $("#return2").show();
+    });
+    $("#no").click(function(){
+        $("#return3").show();
     });
     // if (crust option:selected===""){
     //     alert("Please make an order");
