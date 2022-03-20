@@ -8,12 +8,30 @@ $(document).ready(function(){
         // console.log(pizzaSize, pizzaCrust, pizzaTopping);   
   
         var totalPrice = (parseInt(pizzaSize) + parseInt(pizzaCrust) + parseInt(pizzaTopping)) * parseInt(orderNumber);
-        console.log(totalPrice);
+        // console.log(totalPrice);
+
+        var deliveryFee = 300
+
+        const grandTotal= totalPrice+deliveryFee;
+        console.log(grandTotal);
+
 
         document.getElementById("return1").innerHTML= "You have chosen "+ $("#size option:selected").text() + " pizza, " + $("#crust option:selected").text()+ " crust and " + $("#topping option:selected").text() + " topping. " + " The total price is Ksh. " + totalPrice;
+
+        document.getElementById("return2").innerHTML= "Your new total price is Ksh " + grandTotal +". Our delivery guy will be at your doorstep soon.";
+
+        
 
 
 
     })
+    $("#btn3").click(function(){
+        $(".deliver").show();
+        $("#return1").show();
+    });
+    $("#btn4").click(function(){
+        $("#return2").show();
+    });
+    
     
 })
