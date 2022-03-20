@@ -19,7 +19,7 @@ $(document).ready(function(){
 
         document.getElementById("return1").innerHTML= "You have chosen "+ $("#size option:selected").text() + " pizza, " + $("#crust option:selected").text()+ " crust and " + $("#topping option:selected").text() + " topping. " + " The total price is Ksh. " + totalPrice;
 
-        document.getElementById("return2").innerHTML= "Your new total price is Ksh " + grandTotal +". Our delivery guy will be at your doorstep soon.";
+        document.getElementById("return2").innerHTML= "Your new total price is Ksh " + grandTotal +". Our delivery guy will be at your doorstep soon. Enter your details below.";
 
         // document.getElementById("return3").innerHTML= "Thank you for shopping with us. Enjoy your pzza!";
 
@@ -34,9 +34,22 @@ $(document).ready(function(){
     });
     $("#yes").click(function(){
         $("#return2").show();
+        $(".locnum").show();
+        $("#yes").hide();
+        $("#no").hide();
+        $("#return1").hide();
+        $("#fee").hide();
     });
     $("#no").click(function(){
         $("#return3").show();
+        $("#yes").hide();
+        $("#no").hide();
+        $("#return1").hide();
+        $("#fee").hide();
+    });
+    $("#btn4").click(function(){
+        $("#return3").show();
+        $("#return2").hide();
     });
     // if (crust option:selected===""){
     //     alert("Please make an order");
