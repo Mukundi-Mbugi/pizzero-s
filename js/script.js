@@ -10,6 +10,8 @@ $(document).ready(function(){
         var totalPrice = (parseInt(pizzaSize) + parseInt(pizzaCrust) + parseInt(pizzaTopping)) * parseInt(orderNumber);
         console.log(totalPrice);
 
+        document.getElementById("return1").innerHTML= "You have chosen "+ $("#size option:selected").text() + " pizza, " + $("#crust option:selected").text()+ " crust and " + $("#topping option:selected").text() + " topping. " + " The total price is Ksh. " + totalPrice;
+
 
 
     })
