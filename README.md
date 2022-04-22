@@ -1,4 +1,4 @@
-# Delani Studio Project
+Pizzeros Project
 #### This is a pizzeros website. Pizzeros is a pizza selling kitchen house. In this website, they showcase their products and provide the user with the option of odering their pizzas.
 #### By **Elijah Mbugi**
 Elijah Mbugi is a fullstack software development student at Moringa School.
